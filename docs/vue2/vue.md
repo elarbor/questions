@@ -25,19 +25,19 @@ Web是World Wide Web的简称，中文译为万维网我们可以将它规划成
 
 ASP，JSP大家应该都不会太陌生，最早出现于 2005 年左右，先后出现了微软的 ASP 和 Java Server Pages \[JSP\] 等技术,取代了 CGI ，增强了 WEB 与服务端的交互的安全性，类似于下面这样，其实就是Java + HTML
 
-`<%@ page language="java" contentType="text/html; charset=utf-8"  
-    pageEncoding="utf-8"%>  
+```html
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>  
 <!DOCTYPE html>  
 <html>  
-<head>  
-  <meta charset="utf-8">  
-  <title>JSP demo</title>  
-</head>  
-<body>  
-  <img src="http://localhost:8080/web05_session/1.jpg" width=200 height=100 />  
-</body>  
+  <head>  
+    <meta charset="utf-8">  
+    <title>JSP demo</title>  
+  </head>  
+  <body>  
+    <img src="http://localhost:8080/web05_session/1.jpg" width=200 height=100 />  
+  </body>  
 </html>  
-`
+```
 
 JSP有一个很大的缺点，就是不太灵活，因为JSP是在服务器端执行的，通常返回该客户端的就是一个HTML文本。我们每次的请求：获取的数据、内容的加载，都是服务器为我们返回渲染完成之后的 DOM，这也就使得我们开发网站的灵活度大打折扣在这种情况下，同年：Ajax火了\(小细节，这里为什么说火了，因为 Ajax 技术并不是 2005 年出现的，他的雏形是 1999 年\)，现在看来很常见的技术手段，在当时可是珍贵无比
 
