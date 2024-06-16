@@ -15,6 +15,15 @@ export default defineConfig({
   markdown: {
     lineNumbers: true // 默认显示行号
   },
+  head: [
+    [
+      'script',
+      {
+        src: 'https://esm.sh/giscus',
+        type: "module"
+      }
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
