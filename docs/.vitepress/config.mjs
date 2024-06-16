@@ -28,10 +28,10 @@ export default defineConfig({
     ],
     sidebar: getSideBars(),
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/chergn/questions' }
     ],
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
+      pattern: 'https://github.com/chergn/questions/edit/main/docs/:path'
     },
     footer: {
       message: '欢迎投稿，共同完善题库',
