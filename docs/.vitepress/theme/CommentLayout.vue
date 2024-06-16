@@ -2,7 +2,7 @@
 <template>
   <Layout>
     <template #doc-after>
-      <giscus-widget
+      <Giscus
         id="comments"
         repo="chergn/questions"
         repoid="R_kgDOMJ_OGw"
@@ -16,12 +16,13 @@
         theme="light"
         lang="en"
         loading="lazy"
-      ></giscus-widget>
+      ></Giscus>
     </template>
   </Layout>
 </template>
 
 <script lang="ts" setup>
 import DefaultTheme from "vitepress/theme";
+import Giscus from '@giscus/vue';
 const { Layout } = DefaultTheme;
 </script>
