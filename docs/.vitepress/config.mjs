@@ -11,6 +11,10 @@ import fs from "fs"
 export default defineConfig({
   title: "前端题库",
   description: "最全面的前端面试题库",
+  base: "/questions/",
+  markdown: {
+    lineNumbers: true // 默认显示行号
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
