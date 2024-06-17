@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import excludeSidebars from "../../config/exclude-sidebars.json"
 import path from "path"
 import fs from "fs"
 
@@ -10,7 +11,7 @@ import fs from "fs"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "前端题库",
-  description: "最全面的前端面试题库",
+  // description: "集思广益，共同完善的大题库",
   base: "/questions/",
   markdown: {
     lineNumbers: true // 默认显示行号
@@ -38,7 +39,7 @@ export default defineConfig({
       pattern: 'https://github.com/chergn/questions/edit/main/docs/:path'
     },
     footer: {
-      message: '欢迎投稿，共同完善题库',
+      message: '立志成为最全面的前端面试题库',
       // copyright: 'Copyright © cherry'
     }
   },
@@ -49,6 +50,10 @@ export default defineConfig({
 function getSideBars() {
   var sidebars = [];
   const docsPath = path.dirname(__dirname); // docs 目录路径
+  // 给需要排除的文件名增加后缀名
+  for (let index in excludeSidebars) {
+    excludeSidebars[index] += ".md";
+  }
 
   (function getSideBar(docsPath, link = "") {
     let sidebar = [];
@@ -56,6 +61,7 @@ function getSideBars() {
     // console.log("一维：", files);
     files.forEach((filename, index) => {
       if (filename.startsWith(".") || !filename) return;
+      if (excludeSidebars.includes(filename)) return;
 
       const filepath = path.join(docsPath, filename);
       const stat = fs.statSync(filepath);
