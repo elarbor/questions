@@ -1,4 +1,4 @@
-# Vue3.0 所采用的 Composition Api 与 Vue2.x 使用的 Options Api 有什么不同？
+# Vue3 所采用的 Composition Api 与 Vue2.x 使用的 Options Api 有什么不同？
 
  ![](https://static.vue-js.com/8d6dd7b0-6048-11eb-85f6-6fac77c0c9b3.png)
 

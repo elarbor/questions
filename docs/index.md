@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /markdown-examples
+      link: /说明
     - theme: alt
       text: 我要投稿
       link: https://github.com/chergn/questions/discussions/new?category=ideas

@@ -14,7 +14,11 @@ export default defineConfig({
   // description: "集思广益，共同完善的大题库",
   base: "/questions/",
   markdown: {
-    lineNumbers: true // 默认显示行号
+    lineNumbers: true, // 默认显示行号
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
+    }
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

@@ -1,4 +1,4 @@
-# Vue3.0性能提升主要是通过哪几方面体现的？
+# Vue3性能提升主要是通过哪几方面体现的？
 
  ![](https://static.vue-js.com/2aac1020-5ed0-11eb-ab90-d9ae814b240d.png)
 

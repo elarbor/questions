@@ -1,4 +1,4 @@
-# 说说Git 中 HEAD、工作树和索引之间的区别？
+# 说说Git中 HEAD、工作树和索引之间的区别？
 
  ![](https://static.vue-js.com/2de056a0-fa40-11eb-991d-334fd31f0201.png)
 
