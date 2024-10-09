@@ -37,10 +37,10 @@ export default defineConfig({
     ],
     sidebar: getSideBars(),
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/chergn/questions' }
+      { icon: 'github', link: 'https://github.com/elarber/questions' }
     ],
     editLink: {
-      pattern: 'https://github.com/chergn/questions/edit/main/docs/:path'
+      pattern: 'https://github.com/elarber/questions/edit/main/docs/:path'
     },
     footer: {
       message: '立志成为最全面的前端面试题库',
