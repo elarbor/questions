@@ -4,7 +4,7 @@
     <template #doc-after>
       <Giscus
         id="comments"
-        repo="chergn/questions"
+        repo="elarber/questions"
         repoid="R_kgDOMJ_OGw"
         category="Announcements"
         categoryid="DIC_kwDOMJ_OG84CgHg6"
