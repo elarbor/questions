@@ -12,7 +12,7 @@ hero:
       link: /说明
     - theme: alt
       text: 我要投稿
-      link: https://github.com/chergn/questions/discussions/new?category=ideas
+      link: https://github.com/elarber/questions/discussions/new?category=ideas
 
 features:
   - title: Feature A
