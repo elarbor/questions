@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.BR_tWRn5.js";const y=JSON.parse('{"title":"双向数据绑定是什么","description":"","frontmatter":{},"headers":[],"relativePath":"vue2/bind.md","filePath":"vue2/bind.md"}'),l={name:"vue2/bind.md"},p=n("",47),e=[p];function h(k,t,r,E,d,c){return a(),i("div",null,e)}const o=s(l,[["render",h]]);export{y as __pageData,o as default};

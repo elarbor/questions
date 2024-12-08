@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.BR_tWRn5.js";const y=JSON.parse('{"title":"谈谈你对BFC的理解？","description":"","frontmatter":{},"headers":[],"relativePath":"css/BFC.md","filePath":"css/BFC.md"}'),l={name:"css/BFC.md"},p=n("",49),h=[p];function t(e,k,E,r,d,g){return a(),i("div",null,h)}const b=s(l,[["render",t]]);export{y as __pageData,b as default};

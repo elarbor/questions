@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,j as o}from"./chunks/framework.BR_tWRn5.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"说明.md","filePath":"说明.md"}'),s={name:"说明.md"},n=o("p",null,"开始你的学习之旅吧",-1),r=[n];function c(_,d,i,p,l,m){return a(),t("div",null,r)}const u=e(s,[["render",c]]);export{h as __pageData,u as default};

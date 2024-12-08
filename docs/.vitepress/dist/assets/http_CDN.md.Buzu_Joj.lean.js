@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,a3 as t}from"./chunks/framework.BR_tWRn5.js";const u=JSON.parse('{"title":"如何理解CDN？说说实现原理？","description":"","frontmatter":{},"headers":[],"relativePath":"http/CDN.md","filePath":"http/CDN.md"}'),c={name:"http/CDN.md"},d=t("",32),i=[d];function l(r,p,n,s,h,N){return o(),a("div",null,i)}const C=e(c,[["render",l]]);export{u as __pageData,C as default};
